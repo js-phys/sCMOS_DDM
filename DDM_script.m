@@ -1,13 +1,13 @@
-
-
-filein = 'E:\sicastar100_1\Spooled files.sifx'
+% Provide parameters
 pxsz = (0.05E-3/160.) %image pixel size in m/px
 limit_t=300; %limit on iterations for determining the power spectrum D(q,t)-D(q,t+deltaT)(inner loop)
 %timesteps=round(linspace(1,15,9)); %time steps (deltaT) to be computed (outer loop)
 %timesteps=unique(round(exp(0:0.1:log(500))));
 timesteps=1:5:999;
 
+%% DON'T CHANGE ANYTHING FROM HERE
 
+% filein = 'E:\path\to\Spooled files.sifx'
 
 format long;
 clc;
