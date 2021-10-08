@@ -1,6 +1,6 @@
 # sCMOS_DDM
 #### Language: Matlab
-Differential Dynamic Microscopy algorithm, which wokrs with videos in proprietary format (.sifx) of Andor sCMOS cameras (Zyla).
+Differential Dynamic Microscopy algorithm, that works with videos in proprietary format (.sifx) of Andor sCMOS cameras (Zyla).
 
 ---
 Differential Dynamic Microscopy is the counterpart of DLS and can be employed to measure diffusion constants. Instead of using a laser and detect/correlate the light scattered of the sample here a simply light microscope can be employed. A video of the sample is acquired and later the indvidual frames get correlated. More information on the DDM algortihm can be found elsewhere:
