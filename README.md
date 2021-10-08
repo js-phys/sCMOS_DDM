@@ -13,6 +13,13 @@ sCMOS cameras can reach fast framerates and large field of views and hence, they
 
 Instead, this project opens and processes the .sifx files directly in Matlab. This can save a lot of time and provides a convenient nan easy way for further evaluation.
 
+**How to use?** 
+In DDM_Script.m adjust the parameters:
+- <code>pxsz<code> pixel size of your detector
+- <limit_t> iteration limit (to keep the calculation time tolerable)
+- <timesteps> A vector containing the computed timesteps (lower the number of timesteps to keep calculation time small)
+Then run the file and choose the .sifx file to be evaluated in the following dialog.
+
 ---
 **NOTE: The DDM_radialavg.m file is not my work! It was written by David J. Fischer:**
 
