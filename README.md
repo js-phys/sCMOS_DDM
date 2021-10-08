@@ -12,4 +12,8 @@ Differential Dynamic Microscopy is the counterpart of DLS and can be employed to
 sCMOS cameras can reach fast framerates and large field of views and hence, they generate large files during acquisition. Therefore, Andor cameras spool the data directly to a disc utilizing a proprietary .sifx format. Opening the files with Andor SOLIS Software and exporting them takes a ot of time and usually looses information due to video compression.
 
 Instead, this project opens and processes the .sifx files directly in Matlab. This can save a lot of time and provides a convenient nan easy way for further evaluation.
-c
+
+---
+**NOTE: The DDM_radialavg.m file is not my work! It was written by David J. Fischer:**
+
+[David Fischer (2018). radialavg.zip, MATLAB Central File Exchange. Retrieved October 7, 2018.](https://www.mathworks.com/matlabcentral/fileexchange/46468-radialavg-zip)
