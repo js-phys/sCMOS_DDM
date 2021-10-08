@@ -15,9 +15,9 @@ Instead, this project opens and processes the .sifx files directly in Matlab. Th
 
 **How to use?** 
 In DDM_Script.m adjust the parameters:
-- <code>pxsz<code> pixel size of your detector
-- <limit_t> iteration limit (to keep the calculation time tolerable)
-- <timesteps> A vector containing the computed timesteps (lower the number of timesteps to keep calculation time small)
+- <code>pxsz</code> pixel size of your detector
+- <code>limit_t</code> iteration limit (to keep the calculation time tolerable)
+- <code>timesteps</code> A vector containing the computed timesteps (lower the number of timesteps to keep calculation time small)
 Then run the file and choose the .sifx file to be evaluated in the following dialog.
 
 ---
